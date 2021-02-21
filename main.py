@@ -1,4 +1,3 @@
-
 # Variable
 """
 We need input function
