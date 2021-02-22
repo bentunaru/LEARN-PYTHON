@@ -1,7 +1,9 @@
 # Variable
 """
-We need input function
-The input function store string
+
+* We need input function
+* The input function store string
+
 """
 name = input("Name: ")
 age = input("Age: ")
