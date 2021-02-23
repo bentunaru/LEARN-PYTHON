@@ -7,14 +7,11 @@
 """
 name = input("Name: ")
 age = input("Age: ")
-age_int = int(age) + 1  # * the int function convert an string to integer
+
+try:
+    age_int = int(age) + 1  # * the int function convert an string to integer
                         # ! Dont forget to add + 1
-
-print(type(age_int))
-
-print("Name: " + name + " age: " + age)
-print(type(name))
-print(type(age))
-
-print("The next year, you will have " + str(age_int))
-print(type(age_int))
+except:
+    print("ERROR : YOU NEED TO INTEGER !")
+else:
+    print("Your Name is : " + name + " age: " + age + "The next year, you will have " + str(age_int) + " years old")
